@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "My Symbols")(type "KiCad")(uri "${KIPRJMOD}/symbols/my-symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "CERN-Connectors")(type "KiCad")(uri "/home/mead/kicad/cern-kicad-libs/SchLib/Connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "EIC-parts")(type "KiCad")(uri "/home/mead/kicad/KiCad_Parts-Kicad_9/symbols/custom.kicad_sym")(options "")(descr ""))
+)
