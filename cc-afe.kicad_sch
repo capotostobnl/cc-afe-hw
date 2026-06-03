@@ -361,6 +361,26 @@
 		)
 		(uuid "22a33bc7-c531-4a22-9beb-a30e9e237efd")
 	)
+	(bus
+		(pts
+			(xy 214.63 119.38) (xy 241.3 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2681137c-fc00-40b8-acff-8ab53e0241df")
+	)
+	(bus
+		(pts
+			(xy 214.63 106.68) (xy 241.3 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eddc9ec-c167-41ea-9428-ad90d506e142")
+	)
 	(wire
 		(pts
 			(xy 156.21 171.45) (xy 175.26 171.45)
@@ -370,6 +390,16 @@
 			(type default)
 		)
 		(uuid "57546de6-35f1-4e76-9398-f617f4bbfe56")
+	)
+	(bus
+		(pts
+			(xy 214.63 104.14) (xy 241.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65dc988f-85de-4ed1-9873-f02b02cf935d")
 	)
 	(wire
 		(pts
@@ -411,6 +441,16 @@
 		)
 		(uuid "94c47af8-148a-4942-88b8-df12fe025204")
 	)
+	(bus
+		(pts
+			(xy 214.63 116.84) (xy 241.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e33f6f-9654-4e40-a5d7-4e6241ed5db7")
+	)
 	(wire
 		(pts
 			(xy 214.63 80.01) (xy 241.3 80.01)
@@ -431,6 +471,16 @@
 		)
 		(uuid "b13a50b8-8685-4851-a8f1-98537b8f00ac")
 	)
+	(bus
+		(pts
+			(xy 214.63 101.6) (xy 241.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ff71d8-dcaf-4d9d-aa99-fbc1128899dd")
+	)
 	(wire
 		(pts
 			(xy 344.17 208.28) (xy 344.17 207.01)
@@ -440,6 +490,36 @@
 			(type default)
 		)
 		(uuid "b7241058-690b-4058-a6bf-f7ec82d6f548")
+	)
+	(bus
+		(pts
+			(xy 214.63 111.76) (xy 241.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc87db30-5a83-45dd-980a-786f3a3fffce")
+	)
+	(bus
+		(pts
+			(xy 214.63 109.22) (xy 241.3 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc4ea64-d114-402d-a082-48e1b35bb702")
+	)
+	(bus
+		(pts
+			(xy 214.63 114.3) (xy 241.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e553c3f9-4c03-45ef-b1e7-f5299ee58182")
 	)
 	(wire
 		(pts
@@ -810,7 +890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ec590b4-2866-4c6c-a447-943341eb6a56")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR010"
 			(at 386.08 194.31 0)
 			(effects
 				(font
@@ -861,7 +941,7 @@
 		(instances
 			(project "cc-afe"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
-					(reference "#PWR013")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -1299,7 +1379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67236ae0-b20d-48d9-bd8a-e77c04b3a177")
-		(property "Reference" "MT8"
+		(property "Reference" "MT6"
 			(at 388.62 181.6099 0)
 			(effects
 				(font
@@ -1414,7 +1494,7 @@
 		(instances
 			(project "cc-afe"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
-					(reference "MT8")
+					(reference "MT6")
 					(unit 1)
 				)
 			)
@@ -1497,7 +1577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7774fbab-a0c6-47b0-895e-a29cb3c5461d")
-		(property "Reference" "MT5"
+		(property "Reference" "MT4"
 			(at 358.14 181.6099 0)
 			(effects
 				(font
@@ -1612,7 +1692,7 @@
 		(instances
 			(project "cc-afe"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
-					(reference "MT5")
+					(reference "MT4")
 					(unit 1)
 				)
 			)
@@ -1942,7 +2022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afba3df5-0c30-4173-bf4d-b402bcd511aa")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 355.6 194.31 0)
 			(effects
 				(font
@@ -1993,7 +2073,7 @@
 		(instances
 			(project "cc-afe"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2009,7 +2089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0dc64f0-8f61-422b-9aac-d2096e10e799")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 359.41 214.63 0)
 			(effects
 				(font
@@ -2060,7 +2140,7 @@
 		(instances
 			(project "cc-afe"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2143,7 +2223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf3ff9b4-2308-4299-afe1-c4ad3dfcbafc")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR09"
 			(at 375.92 194.31 0)
 			(effects
 				(font
@@ -2194,7 +2274,7 @@
 		(instances
 			(project "cc-afe"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
-					(reference "#PWR012")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2210,7 +2290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf88d609-2959-45a1-ad0b-2c2ec6a6256b")
-		(property "Reference" "MT7"
+		(property "Reference" "MT5"
 			(at 378.46 181.6099 0)
 			(effects
 				(font
@@ -2325,7 +2405,7 @@
 		(instances
 			(project "cc-afe"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
-					(reference "MT7")
+					(reference "MT5")
 					(unit 1)
 				)
 			)
@@ -2618,8 +2698,8 @@
 		)
 	)
 	(sheet
-		(at 240.665 99.06)
-		(size 29.845 43.18)
+		(at 241.3 99.06)
+		(size 29.21 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2634,7 +2714,7 @@
 		)
 		(uuid "3f2dcaf9-8852-4ae9-a02f-0828e41c6a78")
 		(property "Sheetname" "SFP"
-			(at 240.665 98.3484 0)
+			(at 241.3 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2643,7 +2723,7 @@
 			)
 		)
 		(property "Sheetfile" "sfp.kicad_sch"
-			(at 240.665 142.8246 0)
+			(at 241.3 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2652,7 +2732,7 @@
 			)
 		)
 		(pin "SFP2{TRX}" bidirectional
-			(at 240.665 106.68 180)
+			(at 241.3 106.68 180)
 			(uuid "55067045-0e03-45e6-ad42-3c8fb29676b8")
 			(effects
 				(font
@@ -2662,7 +2742,7 @@
 			)
 		)
 		(pin "SFP1{TRX}" bidirectional
-			(at 240.665 104.14 180)
+			(at 241.3 104.14 180)
 			(uuid "e7932731-5960-4fcb-9715-ea5dfb14612e")
 			(effects
 				(font
@@ -2672,7 +2752,7 @@
 			)
 		)
 		(pin "SFP0{TRX}" bidirectional
-			(at 240.665 101.6 180)
+			(at 241.3 101.6 180)
 			(uuid "0ff344be-9c09-42ea-9e1a-193e40f7bc2f")
 			(effects
 				(font
@@ -2682,7 +2762,7 @@
 			)
 		)
 		(pin "SFP3{TRX}" bidirectional
-			(at 240.665 109.22 180)
+			(at 241.3 109.22 180)
 			(uuid "d57ec2d8-7541-4737-b3f9-1824e8e28770")
 			(effects
 				(font
@@ -2692,7 +2772,7 @@
 			)
 		)
 		(pin "I2C0{SDA,SCL}" bidirectional
-			(at 240.665 138.43 180)
+			(at 241.3 138.43 180)
 			(uuid "4de87ff5-733b-421b-8999-6e97fcf1f30f")
 			(effects
 				(font
@@ -2702,7 +2782,7 @@
 			)
 		)
 		(pin "SFP4{TRX}" bidirectional
-			(at 240.665 111.76 180)
+			(at 241.3 111.76 180)
 			(uuid "03cec7c2-0d30-4ade-9b17-823d8fcc01c8")
 			(effects
 				(font
@@ -2712,7 +2792,7 @@
 			)
 		)
 		(pin "SFP7{TRX}" bidirectional
-			(at 240.665 119.38 180)
+			(at 241.3 119.38 180)
 			(uuid "e2c697c1-f93b-4301-b313-87bd6b023f50")
 			(effects
 				(font
@@ -2722,7 +2802,7 @@
 			)
 		)
 		(pin "SFP_MOD_ABS[7..0]" output
-			(at 240.665 130.81 180)
+			(at 241.3 130.81 180)
 			(uuid "38f2fc38-4fb9-4e82-bdf7-49f4416ef859")
 			(effects
 				(font
@@ -2732,7 +2812,7 @@
 			)
 		)
 		(pin "SFP_TX_DIS[7..0]" input
-			(at 240.665 128.27 180)
+			(at 241.3 128.27 180)
 			(uuid "6d7b6a16-d05f-49eb-a24b-21a16f559418")
 			(effects
 				(font
@@ -2742,7 +2822,7 @@
 			)
 		)
 		(pin "SFP_RX_LOS[7..0]" output
-			(at 240.665 125.73 180)
+			(at 241.3 125.73 180)
 			(uuid "454cb25b-fe9f-4fb7-ac2e-1f8581ba6722")
 			(effects
 				(font
@@ -2752,7 +2832,7 @@
 			)
 		)
 		(pin "SFP5{TRX}" bidirectional
-			(at 240.665 114.3 180)
+			(at 241.3 114.3 180)
 			(uuid "265468b0-3d48-4aa5-9e0a-eccea920bea8")
 			(effects
 				(font
@@ -2762,7 +2842,7 @@
 			)
 		)
 		(pin "SFP6{TRX}" bidirectional
-			(at 240.665 116.84 180)
+			(at 241.3 116.84 180)
 			(uuid "d93e94bf-ea5b-463f-8d26-cfef74877021")
 			(effects
 				(font
@@ -2918,6 +2998,86 @@
 		(pin "{DAC}" input
 			(at 214.63 80.01 0)
 			(uuid "cbfa2802-b835-4024-a893-fce6389b532d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SFP4{TRX}" bidirectional
+			(at 214.63 111.76 0)
+			(uuid "bb2cc90c-ac2a-4a6f-881f-54ca3ad76ebb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SFP5{TRX}" bidirectional
+			(at 214.63 114.3 0)
+			(uuid "fae1d68b-708d-4765-b66f-246cab615549")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SFP6{TRX}" bidirectional
+			(at 214.63 116.84 0)
+			(uuid "6702e10b-1976-48b9-bfb6-4d0c6782bf55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SFP7{TRX}" bidirectional
+			(at 214.63 119.38 0)
+			(uuid "37e41319-7fda-48ae-bcff-c6c86c1537d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SFP0{TRX}" bidirectional
+			(at 214.63 101.6 0)
+			(uuid "835e5b8b-b26d-4fa8-9a1d-6ad19c56ba29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SFP1{TRX}" bidirectional
+			(at 214.63 104.14 0)
+			(uuid "3a7ac7a5-4a16-4378-8a6c-47479b680b01")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SFP2{TRX}" bidirectional
+			(at 214.63 106.68 0)
+			(uuid "e536a8c7-8f38-4f4d-b018-28b5bf9eb3c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SFP3{TRX}" bidirectional
+			(at 214.63 109.22 0)
+			(uuid "ec973583-2f56-43b4-ba1a-70fa85b195ca")
 			(effects
 				(font
 					(size 1.27 1.27)

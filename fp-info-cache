@@ -1,4 +1,4 @@
-26803045923647923
+26808378218064064
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -72499,6 +72499,13 @@ My Footprints
 6
 6
 My Footprints
+05-08-7039_ADI
+
+LT8627SPJV-TRMPBF 
+0
+40
+32
+My Footprints
 74441-0010
 
 
@@ -72551,6 +72558,13 @@ My Footprints
 COILCRAFT_MSS1048
 
 
+0
+2
+2
+My Footprints
+COILCRAFT_XGL5050
+
+XGL5050-561MEC 
 0
 2
 2
@@ -72757,6 +72771,13 @@ TPS3850_DRCR
 0
 15
 11
+My Footprints
+TPS259827ONRGET
+
+
+0
+35
+35
 My Footprints
 TestPoint_RCS-0C
 Keystone SMT Micro Mini Test Point 5015, http://www.keyelco.com/product-pdf.cfm?p=1353
