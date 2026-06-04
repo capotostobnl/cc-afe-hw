@@ -3769,6 +3769,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "MGT"
+		(members "MDIO" "MDC")
+	)
 	(bus_alias "SDI"
 		(members "TXD0" "TXD1" "TXD2" "TXD3" "TX_EN" "TX_CLK" "RXD0" "RXD1" "RXD2"
 			"RXD3" "RX_DV" "RX_ER" "RX_CLK" "RX_CRS"
@@ -4129,6 +4132,15 @@
 		(uuid "0d392a99-9dcf-4bb8-a348-8cc0eb832c08")
 	)
 	(bus_entry
+		(at 85.09 72.39)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ebfc4e1-57f9-4456-976d-a75fa6d76d7d")
+	)
+	(bus_entry
 		(at 74.93 153.67)
 		(size 2.54 2.54)
 		(stroke
@@ -4334,6 +4346,15 @@
 			(type default)
 		)
 		(uuid "d9870fde-b38f-40d8-99a2-ef82451fadf3")
+	)
+	(bus_entry
+		(at 85.09 69.85)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee45e135-e367-4263-aed0-920795471572")
 	)
 	(bus_entry
 		(at 74.93 97.79)
@@ -4551,6 +4572,16 @@
 			(type default)
 		)
 		(uuid "1311170f-56f6-4868-bb6b-1dd4bd6e17c1")
+	)
+	(bus
+		(pts
+			(xy 54.61 67.31) (xy 85.09 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "140e0b86-0784-4bbb-ba5a-af2968a21f2b")
 	)
 	(wire
 		(pts
@@ -5281,6 +5312,16 @@
 			(type default)
 		)
 		(uuid "5da8fb96-c38a-4906-9ad2-314f690de47c")
+	)
+	(bus
+		(pts
+			(xy 85.09 72.39) (xy 85.09 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e66c45d-0031-4d2d-b0d5-f42a58271381")
 	)
 	(wire
 		(pts
@@ -6191,6 +6232,16 @@
 			(type default)
 		)
 		(uuid "ab9b2f35-ecbe-49a9-aec0-abbb83dda054")
+	)
+	(bus
+		(pts
+			(xy 85.09 69.85) (xy 85.09 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abeff046-5cd6-4ea6-b624-27ccb8a80e59")
 	)
 	(wire
 		(pts
@@ -7442,6 +7493,16 @@
 		)
 		(uuid "7a990e3c-a5bc-4d43-9488-8877a78490cd")
 	)
+	(label "MDIO"
+		(at 91.44 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b74bd83-c44a-4393-a6db-bdb260b5cdd3")
+	)
 	(label "B.TXD0"
 		(at 82.55 127 0)
 		(effects
@@ -7522,6 +7583,16 @@
 		)
 		(uuid "d9d721d1-31f7-4f42-a775-7a392312f687")
 	)
+	(label "MDC"
+		(at 91.44 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f236f749-ac5a-491b-9f4d-651b40f0f905")
+	)
 	(label "A.TXD0"
 		(at 82.55 83.82 0)
 		(effects
@@ -7552,6 +7623,17 @@
 			(justify right)
 		)
 		(uuid "60bba21d-29d1-4fdb-aa2b-569c45dd1b50")
+	)
+	(hierarchical_label "{MGT}"
+		(shape bidirectional)
+		(at 54.61 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9c8059c-c079-4869-abd4-a8b08b19a5ef")
 	)
 	(hierarchical_label "B{SDI}"
 		(shape input)

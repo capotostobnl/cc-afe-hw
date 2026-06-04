@@ -4952,7 +4952,7 @@
 	)
 	(text "ADDR 0x70"
 		(exclude_from_sim no)
-		(at 297.18 48.26 0)
+		(at 305.816 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4982,6 +4982,17 @@
 			(justify left bottom)
 		)
 		(uuid "43d01cbe-1584-42bc-9423-fd95666cc1dd")
+	)
+	(text "FPGA pulls TX_DIS low to enable SFP  (Turns on Green LED)\nMOD_ABS is pulled low when module installed\nRX_LOS is pulled high when optical power is too low\nRED LED goes on when MOD_ABS is low and RX_LOS is high"
+		(exclude_from_sim no)
+		(at 50.8 26.162 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "524a160e-bf4b-4254-80ce-54a1b3f86033")
 	)
 	(text "ADDR 0x50, 0x51"
 		(exclude_from_sim no)
@@ -15130,7 +15141,7 @@
 		)
 		(uuid "621635e2-f4cd-40a9-80de-5bb1f110d6f3")
 	)
-	(label "I2C0.SCL"
+	(label "I2C.SCL"
 		(at 317.5 44.45 0)
 		(effects
 			(font
@@ -15510,7 +15521,7 @@
 		)
 		(uuid "a584b89a-3e74-4f60-bc70-32192b46f266")
 	)
-	(label "I2C0.SDA"
+	(label "I2C.SDA"
 		(at 317.5 46.99 0)
 		(effects
 			(font
@@ -15882,7 +15893,7 @@
 		)
 		(uuid "17309ddd-ccfe-41b6-b228-542d5056f3a6")
 	)
-	(hierarchical_label "I2C0{SDA,SCL}"
+	(hierarchical_label "I2C{SDA,SCL}"
 		(shape bidirectional)
 		(at 312.42 41.91 180)
 		(effects
