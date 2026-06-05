@@ -845,6 +845,14 @@
     [
       "788510aa-8044-4898-8dc4-a8ebbbbcc4cb",
       "DAC"
+    ],
+    [
+      "e24061a7-6fb6-4035-a502-4700a776108f",
+      "Digital Outputs"
+    ],
+    [
+      "812210bd-4fc9-4188-a0a4-aa12c3729a0b",
+      "Digital Inputs"
     ]
   ],
   "text_variables": {

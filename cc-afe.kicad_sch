@@ -464,6 +464,16 @@
 		)
 		(uuid "89815285-6e2c-4afd-ae79-1c96a78f0426")
 	)
+	(bus
+		(pts
+			(xy 214.63 48.26) (xy 241.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3e92d6-8ae4-4232-9eae-1e84392c1be6")
+	)
 	(wire
 		(pts
 			(xy 346.71 187.96) (xy 346.71 186.69)
@@ -2975,8 +2985,8 @@
 		)
 	)
 	(sheet
-		(at 175.26 69.85)
-		(size 39.37 105.664)
+		(at 175.26 39.624)
+		(size 39.37 135.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2991,7 +3001,7 @@
 		)
 		(uuid "5e8bd990-b052-4de9-8b1d-6d051dc9193f")
 		(property "Sheetname" "zuDFE Connectors"
-			(at 175.26 69.1384 0)
+			(at 175.26 38.9124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,6 +3188,16 @@
 				(justify right)
 			)
 		)
+		(pin "DIGOUT[7..0]" output
+			(at 214.63 48.26 0)
+			(uuid "816d7098-3ee1-4466-99d3-86d827f9de98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "cc-afe"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
@@ -3234,6 +3254,100 @@
 			(project "cc-afe"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 136.398 45.466)
+		(size 28.956 23.114)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "812210bd-4fc9-4188-a0a4-aa12c3729a0b")
+		(property "Sheetname" "Digital Inputs"
+			(at 136.398 44.7544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digin.kicad_sch"
+			(at 136.398 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cc-afe"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 241.3 41.656)
+		(size 32.512 22.098)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "e24061a7-6fb6-4035-a502-4700a776108f")
+		(property "Sheetname" "Digital Outputs"
+			(at 241.3 40.9444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digout.kicad_sch"
+			(at 241.3 64.3386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DIGOUT[7..0]" input
+			(at 241.3 48.26 180)
+			(uuid "56446107-192c-4b62-909d-4a24bd5c281c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "cc-afe"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
+					(page "7")
 				)
 			)
 		)
